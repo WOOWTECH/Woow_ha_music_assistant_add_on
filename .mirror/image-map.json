@@ -1,0 +1,67 @@
+{
+  "upstream_url": "https://github.com/music-assistant/home-assistant-addon",
+  "upstream_branch": "main",
+  "mirror_image_prefix": "ghcr.io/woowtech/ha-mirror-",
+  "addons": [
+    {
+      "dir": "local_audio",
+      "slug": "local_audio",
+      "name": "Local Audio",
+      "upstream_image": "ghcr.io/music-assistant/local-audio-addon",
+      "new_image": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-local-audio-addon",
+      "version": "0.1.13",
+      "arches": [
+        "amd64"
+      ],
+      "already_patched": false
+    },
+    {
+      "dir": "music_assistant",
+      "slug": "music_assistant",
+      "name": "Music Assistant",
+      "upstream_image": "ghcr.io/music-assistant/server",
+      "new_image": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server",
+      "version": "2.10.2",
+      "arches": [
+        "amd64"
+      ],
+      "already_patched": false
+    },
+    {
+      "dir": "music_assistant_beta",
+      "slug": "music_assistant_beta",
+      "name": "Music Assistant (BETA)",
+      "upstream_image": "ghcr.io/music-assistant/server",
+      "new_image": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server",
+      "version": "2.11.0b1",
+      "arches": [
+        "amd64"
+      ],
+      "already_patched": false
+    },
+    {
+      "dir": "music_assistant_nightly",
+      "slug": "music_assistant_nightly",
+      "name": "Music Assistant (NIGHTLY)",
+      "upstream_image": "ghcr.io/music-assistant/server",
+      "new_image": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server",
+      "version": "2.11.0.dev2026090503",
+      "arches": [
+        "amd64"
+      ],
+      "already_patched": false
+    },
+    {
+      "dir": "ytm_po_token_generator",
+      "slug": "ytm_po_token_generator",
+      "name": "YT Music PO Token Generator",
+      "upstream_image": "brainicism/bgutil-ytdlp-pot-provider",
+      "new_image": "ghcr.io/woowtech/ha-mirror-brainicism-bgutil-ytdlp-pot-provider",
+      "version": "1.3.2",
+      "arches": [
+        "amd64"
+      ],
+      "already_patched": false
+    }
+  ]
+}
