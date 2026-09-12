@@ -29,7 +29,7 @@ backup_exclude:
   - collage_images/*
   - .cache/*
 stage: experimental
-image: ghcr.io/music-assistant/server
+image: ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server
 tmpfs: true
 options:
   log_level: info
