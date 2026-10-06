@@ -246,22 +246,22 @@
     "music_assistant_dev": {
       "id": "music_assistant_dev",
       "name": "Music Assistant DEV SERVER",
-      "version": "2.11.0.dev2026100503",
+      "version": "2.11.0.dev2026100603",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "21ca94aeca16f46d31101ad543096763644ea1f7",
+      "source_sha": "87228b6111ffed66f2c8a4eece8dc2020f631c32",
       "source_path": "music_assistant_dev",
       "config_file": "config.yaml",
-      "config_sha256": "sha256:e15bb5124c665e73bc8633affd2ad92a4c0cee063b3b3518cfee4dc83035498a",
-      "archive_sha256": "sha256:f651b23ed159fc9988ebed1dda0e3c64d9cbc047bed1468c725f77b8c0d0f350",
-      "context_fingerprint": "sha256:087557a762d4c13bd872a7969fe5d6d72b048993dc92a8ed5195caeec442ffa8",
-      "material_fingerprint": "sha256:8b0a8294d4659b458c7b37770c2dd9d219056d57fef96e6bb5e440cde5a624ed",
+      "config_sha256": "sha256:a36b16b94dd8206c75f660455321267151608e764d31314d711ee84c9b79c42e",
+      "archive_sha256": "sha256:7d9a7ec70eecb63f0dad6872b0a6f0b6fe13ce46489e52be06c70f32014e1950",
+      "context_fingerprint": "sha256:2df2630e30225ddd2e91c6e81302786d8318b548b3192f4dff7aca1cba9f68b2",
+      "material_fingerprint": "sha256:2ce860d87e4f07b08ec6ef29bc6dff054c6015f107b33d2a3553990fad34e556",
       "architectures": [
         "amd64",
         "aarch64"
       ],
       "config": {
         "name": "Music Assistant DEV SERVER",
-        "version": "2.11.0.dev2026100503",
+        "version": "2.11.0.dev2026100603",
         "slug": "music_assistant_dev",
         "description": "Development App for Music Assistant. For developers only.",
         "url": "https://music-assistant.io",
@@ -295,7 +295,8 @@
         "backup_exclude": [
           "cache.db",
           "collage_images/*",
-          ".cache/*"
+          ".cache/*",
+          "library.db.backup"
         ],
         "options": {
           "log_level": "info",
@@ -314,7 +315,7 @@
       "images": {},
       "delivery": "local-source-build",
       "validation": "manifest+source-context+configured-CI (runtime build not certified)",
-      "publisher_run_id": "37410335353",
+      "publisher_run_id": "37449825848",
       "channel": "prerelease"
     },
     "music_assistant_nightly": {
