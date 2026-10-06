@@ -31,7 +31,7 @@ backup_exclude:
   - .cache/*
   - library.db.backup
 stage: stable
-image: ghcr.io/music-assistant/server
+image: ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server
 tmpfs: true
 options:
   log_level: info
