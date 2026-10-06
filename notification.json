@@ -321,22 +321,22 @@
     "music_assistant_nightly": {
       "id": "music_assistant_nightly",
       "name": "Music Assistant (NIGHTLY)",
-      "version": "2.11.0.dev2026100503",
+      "version": "2.11.0.dev2026100603",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "21ca94aeca16f46d31101ad543096763644ea1f7",
+      "source_sha": "87228b6111ffed66f2c8a4eece8dc2020f631c32",
       "source_path": "music_assistant_nightly",
       "config_file": "config.yaml",
-      "config_sha256": "sha256:adab63518fa9671128f0e6ef4f9f3cf882c56f84e70d17d2148a3630d7fb4e14",
-      "archive_sha256": "sha256:f651b23ed159fc9988ebed1dda0e3c64d9cbc047bed1468c725f77b8c0d0f350",
-      "context_fingerprint": "sha256:ab1dc8fb1bba43ea67f611dc0149b5b8872c509fbed4197464f83fe3bc42ce46",
-      "material_fingerprint": "sha256:6da1deed499f9293558e3ae2717cb6a7533456cf2653b942ac0ae6381d0555c5",
+      "config_sha256": "sha256:228b4fa95d4934c163dac1de4dc06b769a839d05eba280a19a5ae2229ab31202",
+      "archive_sha256": "sha256:7d9a7ec70eecb63f0dad6872b0a6f0b6fe13ce46489e52be06c70f32014e1950",
+      "context_fingerprint": "sha256:6a1c8c55f793824bdf641b6caaf0411903123877ed1da1f34a6db802dd5db729",
+      "material_fingerprint": "sha256:aa8d7cc00dcdd1551826f7b7c7e670917c40f6aee665f7573bf16d016d6564f5",
       "architectures": [
         "amd64",
         "aarch64"
       ],
       "config": {
         "name": "Music Assistant (NIGHTLY)",
-        "version": "2.11.0.dev2026100503",
+        "version": "2.11.0.dev2026100603",
         "slug": "music_assistant_nightly",
         "description": "NIGHTLY version of Music Assistant. Install this version if you want to keep up with the latest bleeding edge development of Music Assistant! Use it at your own risk, it might not be recommended for daily/production use because it can be unstable.",
         "url": "https://music-assistant.io",
@@ -367,7 +367,8 @@
         "backup_exclude": [
           "cache.db",
           "collage_images/*",
-          ".cache/*"
+          ".cache/*",
+          "library.db.backup"
         ],
         "stage": "experimental",
         "image": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server",
@@ -384,21 +385,21 @@
       "source_build_supported": false,
       "images": {
         "amd64": {
-          "reference": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server:2.11.0.dev2026100503",
-          "index_digest": "sha256:d1d5642ef8677ab56b78f80ccb9202ea21870ef828ebaa7b696650a262b85558",
-          "digest": "sha256:1037f3ddecb97855680e3e633fe76ba6311459af8ccae0a1e0355ea22a5d1955",
-          "source_revision": "8df7360d9c44d295384924ae2688713849ba232a"
+          "reference": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server:2.11.0.dev2026100603",
+          "index_digest": "sha256:62709630e322ab81923c29e898f2bb35aacf00372b8a1b887ce50beb59c049f2",
+          "digest": "sha256:5a245395f468e9fedc2c3b73dd6b5469b33481c3d9445b56dfdb4aa1fd17c179",
+          "source_revision": "41113c424ab6b1659f433cb9d8bb0d1ab5f9cbfb"
         },
         "aarch64": {
-          "reference": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server:2.11.0.dev2026100503",
-          "index_digest": "sha256:d1d5642ef8677ab56b78f80ccb9202ea21870ef828ebaa7b696650a262b85558",
-          "digest": "sha256:f06e67e04e38d98ae06ae37eccf7fab2a1cdb211d45df480832c2a59308b9fd8",
-          "source_revision": "8df7360d9c44d295384924ae2688713849ba232a"
+          "reference": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server:2.11.0.dev2026100603",
+          "index_digest": "sha256:62709630e322ab81923c29e898f2bb35aacf00372b8a1b887ce50beb59c049f2",
+          "digest": "sha256:064ba0e3290dd9b666b9dc7ba8bd978fd5c75aacaa63b97f4c49cf98cdef3ec7",
+          "source_revision": "41113c424ab6b1659f433cb9d8bb0d1ab5f9cbfb"
         }
       },
       "delivery": "published-image",
       "validation": "manifest+architecture-images+configured-CI",
-      "publisher_run_id": "37410335353",
+      "publisher_run_id": "37457157451",
       "channel": "prerelease"
     },
     "netease_cloud_music_api": {
