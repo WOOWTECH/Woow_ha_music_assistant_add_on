@@ -3,6 +3,13 @@ name: mirror-sync
 # Nightly git sync: pulls latest from upstream, updates the `upstream` branch
 # (pure mirror), then rebuilds `main` (patched) with our overlay files and
 # the image: field rewrites applied on top.
+#
+# `main` only moves forward. Each sync rebuilds the tree from upstream and
+# commits it on top of the previous `main`; it is never force-pushed.
+# Woow_HA_App_Store pins published add-on snapshots by commit and accepts a
+# new snapshot only when it descends from the one it already has, so a
+# rewritten `main` would block every later release. The `upstream` branch
+# is still a force-updated pure mirror.
 
 on:
   schedule:
@@ -62,7 +69,10 @@ jobs:
       - name: Rebuild main = upstream + overlay + image patches
         run: |
           set -e
-          git checkout -B main "upstream/$UPSTREAM_BRANCH"
+          # Keep `main` checked out and replace its index and work tree with
+          # upstream's tree, so the commit below sits on top of the old main.
+          git checkout main
+          git read-tree --reset -u "upstream/$UPSTREAM_BRANCH"
           # Re-apply overlay
           cp -a /tmp/overlay/. .
           # Patch image: fields
@@ -76,7 +86,7 @@ jobs:
             echo "mirror_image_prefix: $MIRROR_IMAGE_PREFIX"
           } > .mirror/last-sync.yaml
 
-      - name: Commit & force-push main
+      - name: Commit & push main
         run: |
           git config user.email "woowtech-mirror-bot@designsmart.com.tw"
           git config user.name  "WOOWTECH Mirror Bot"
@@ -86,4 +96,4 @@ jobs:
           else
             git commit -m "[bot] mirror sync $(date -u +%Y-%m-%d) — ${UPSTREAM_URL##*/}@${UPSTREAM_BRANCH}"
           fi
-          git push origin main --force
+          git push origin main
