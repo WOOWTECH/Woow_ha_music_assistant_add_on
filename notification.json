@@ -322,22 +322,22 @@
     "music_assistant_nightly": {
       "id": "music_assistant_nightly",
       "name": "Music Assistant (NIGHTLY)",
-      "version": "2.11.0.dev2026100703",
+      "version": "2.11.0.dev2026100803",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "d8d9497716b0fb147d59e4c19d2efc05aeda1a57",
+      "source_sha": "20fead0e00de32dea92c60003c2924c7761347e9",
       "source_path": "music_assistant_nightly",
       "config_file": "config.yaml",
-      "config_sha256": "sha256:e8fc598fa5b7186787009b38e31767da08b4351bd1e7f640a62554951c7f86cc",
-      "archive_sha256": "sha256:a8b47876de1f13acc4246f0d5d84cc612bc907d72c89588f195498a151a50bd2",
-      "context_fingerprint": "sha256:893235f2bed221a1ca787b4f5706a79b1c060d877274216e791b8c816134c04d",
-      "material_fingerprint": "sha256:e79879efd95bfda08dfceb6e714f859fadfcac269d4c5ed6665645f88ae89789",
+      "config_sha256": "sha256:d4f8df7a7cc6737998c4ee9d6c5f078fde12034136375ffbc3317e26eadbd07e",
+      "archive_sha256": "sha256:b5c3495e8c399bf46a11a404e6114c36d8836eb12dc66d863f82d89ab25aef6b",
+      "context_fingerprint": "sha256:e532f4d85b249bc0f3391ba9fc580192ca1ee1b6227b0340419bc3b6ca3fb9f1",
+      "material_fingerprint": "sha256:975d6d6cc37e9fae59d37f64d51a963dd031ae636ee25f1df5e62e8f0a9a6ce1",
       "architectures": [
         "amd64",
         "aarch64"
       ],
       "config": {
         "name": "Music Assistant (NIGHTLY)",
-        "version": "2.11.0.dev2026100703",
+        "version": "2.11.0.dev2026100803",
         "slug": "music_assistant_nightly",
         "description": "NIGHTLY version of Music Assistant. Install this version if you want to keep up with the latest bleeding edge development of Music Assistant! Use it at your own risk, it might not be recommended for daily/production use because it can be unstable.",
         "url": "https://music-assistant.io",
@@ -386,21 +386,21 @@
       "source_build_supported": false,
       "images": {
         "amd64": {
-          "reference": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server:2.11.0.dev2026100703",
-          "index_digest": "sha256:582b29a13e5e42ec7ff9c6e9972238f0b06b63e41648656c6556c5f12168a9dc",
-          "digest": "sha256:c93eb02974721bbc285877f27fecb63a403d0eed5af43900e6301aca0e2192aa",
-          "source_revision": "8df8328fe7c7f726da68f9c0fd47b26b8b879fa0"
+          "reference": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server:2.11.0.dev2026100803",
+          "index_digest": "sha256:1b37ae798a75bdc2d65f6f94da4fac47b1a537c6f7b0be8cc1b234d99a178b1b",
+          "digest": "sha256:2cfb8e845050705d8c29a0389a4d9938e2dd37d48f91538e11ab79b7b7be898f",
+          "source_revision": "a813bcd44da9bac651eaabf08e9ede890dfaba53"
         },
         "aarch64": {
-          "reference": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server:2.11.0.dev2026100703",
-          "index_digest": "sha256:582b29a13e5e42ec7ff9c6e9972238f0b06b63e41648656c6556c5f12168a9dc",
-          "digest": "sha256:ce76ffc0c010f8013cbdb15106c73f70bb08ea927f48bddac9767e2875a96457",
-          "source_revision": "8df8328fe7c7f726da68f9c0fd47b26b8b879fa0"
+          "reference": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server:2.11.0.dev2026100803",
+          "index_digest": "sha256:1b37ae798a75bdc2d65f6f94da4fac47b1a537c6f7b0be8cc1b234d99a178b1b",
+          "digest": "sha256:07067ed653f34e85eda4308bc6f55530cb82d409bdc42ef5ccbd5d0965aca781",
+          "source_revision": "a813bcd44da9bac651eaabf08e9ede890dfaba53"
         }
       },
       "delivery": "published-image",
       "validation": "manifest+architecture-images+configured-CI",
-      "publisher_run_id": "37613910734",
+      "publisher_run_id": "37771422993",
       "channel": "prerelease"
     },
     "netease_cloud_music_api": {
