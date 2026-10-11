@@ -248,22 +248,22 @@
     "music_assistant_dev": {
       "id": "music_assistant_dev",
       "name": "Music Assistant DEV SERVER",
-      "version": "2.11.0.dev2026101003",
+      "version": "2.11.0.dev2026101103",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "79be06fe8353dd645c6228e690623382e8504656",
+      "source_sha": "9d14ddeabeb5916479bc0a34df2431ce9f45b76e",
       "source_path": "music_assistant_dev",
       "config_file": "config.yaml",
-      "config_sha256": "sha256:a90e479e838f804dc0284ad441bde6cac06d10b1b16800cdaee29c9ba9a97227",
-      "archive_sha256": "sha256:9b075bb1463d79c1712f28bad8340502020d99c2a4535ed0f8f468f65dc0555c",
-      "context_fingerprint": "sha256:3983d65d627efb8c5167492aaa7bbd10b87af757f9611a6db2730c69ee172f08",
-      "material_fingerprint": "sha256:142e530ceca6abe1d704bb36d36933ce297ce6a7be055bdb9bc9e236ea42023d",
+      "config_sha256": "sha256:df8431c186cd81fe4f3b8b4f43db99de1fb8ff55cc0b611d164ec765c4e1dd9d",
+      "archive_sha256": "sha256:c0d023536b5a60a05757f67c6ba7a041dae6a74b7e5c9700868709fb3433d934",
+      "context_fingerprint": "sha256:2c9cd14bff031c428677496672a87ff488ab0d7f802340cd4e09171e96c9ac0c",
+      "material_fingerprint": "sha256:0b509405c239fa35035dbf6c78e489f3d33bfa78e5fde13e8630cb43f356994c",
       "architectures": [
         "amd64",
         "aarch64"
       ],
       "config": {
         "name": "Music Assistant DEV SERVER",
-        "version": "2.11.0.dev2026101003",
+        "version": "2.11.0.dev2026101103",
         "slug": "music_assistant_dev",
         "description": "Development App for Music Assistant. For developers only.",
         "url": "https://music-assistant.io",
@@ -317,7 +317,7 @@
       "images": {},
       "delivery": "local-source-build",
       "validation": "manifest+source-context+configured-CI (runtime build not certified)",
-      "publisher_run_id": "38043169344",
+      "publisher_run_id": "38130737759",
       "channel": "prerelease"
     },
     "music_assistant_nightly": {
