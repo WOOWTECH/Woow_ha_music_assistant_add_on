@@ -7,11 +7,11 @@
       "name": "Local Audio",
       "version": "0.2.0",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "6a86960bca2724a2d299810d7526d910086ce169",
+      "source_sha": "a25d8faf469d9e1e23e8e79b84aa296ac5fd9434",
       "source_path": "local_audio",
       "config_file": "config.yaml",
       "config_sha256": "sha256:0457dbf0eb0c64b90c4d7522fcf504d614d659f3502f08acea608562fb53538a",
-      "archive_sha256": "sha256:9ad04b885ce0f0c399489144f4b34424bb91de7127344dc8625e537622d6e7fa",
+      "archive_sha256": "sha256:af21f88ed44c6c9bacb5466bc864f86269156092b9c0060c78e641eb882cd4e4",
       "context_fingerprint": "sha256:f2d4efffbfa5d4f488a4b18cf14d87c538b5f88ba47c37b08dea034284710314",
       "material_fingerprint": "sha256:2f4ef82a5ec13297e1afcd6bf6aeba80e585e7458bdaae39dba32aa04aac4f18",
       "architectures": [
@@ -64,7 +64,7 @@
       },
       "delivery": "published-image",
       "validation": "manifest+architecture-images+configured-CI",
-      "publisher_run_id": "39018867947",
+      "publisher_run_id": "39110224804",
       "channel": "stable"
     },
     "music_assistant": {
@@ -161,11 +161,11 @@
       "name": "Music Assistant (BETA)",
       "version": "2.11.0b5",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "6a86960bca2724a2d299810d7526d910086ce169",
+      "source_sha": "a25d8faf469d9e1e23e8e79b84aa296ac5fd9434",
       "source_path": "music_assistant_beta",
       "config_file": "config.yaml",
       "config_sha256": "sha256:f86bd7960f96988a8a0fd907c39c9dd3effc45d0993b4d5cdc1a4377e9d52350",
-      "archive_sha256": "sha256:9ad04b885ce0f0c399489144f4b34424bb91de7127344dc8625e537622d6e7fa",
+      "archive_sha256": "sha256:af21f88ed44c6c9bacb5466bc864f86269156092b9c0060c78e641eb882cd4e4",
       "context_fingerprint": "sha256:20882bf7f6d5e4f3ee323d100208d1fb7b335344affbc32714edef681d3e9120",
       "material_fingerprint": "sha256:e1530975857055d9522712497f74546b658ba2f3dcee55443a12a8702336f9ac",
       "architectures": [
@@ -238,28 +238,28 @@
       },
       "delivery": "published-image",
       "validation": "manifest+architecture-images+configured-CI",
-      "publisher_run_id": "39015273601",
+      "publisher_run_id": "39110224804",
       "channel": "prerelease"
     },
     "music_assistant_dev": {
       "id": "music_assistant_dev",
       "name": "Music Assistant DEV SERVER",
-      "version": "2.11.0.dev2026101703",
+      "version": "2.11.0.dev2026101803",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "6a86960bca2724a2d299810d7526d910086ce169",
+      "source_sha": "a25d8faf469d9e1e23e8e79b84aa296ac5fd9434",
       "source_path": "music_assistant_dev",
       "config_file": "config.yaml",
-      "config_sha256": "sha256:65c646226d8a73bc9ccb141cd17609ef854442db4eb8068d7436ed46a39b7653",
-      "archive_sha256": "sha256:9ad04b885ce0f0c399489144f4b34424bb91de7127344dc8625e537622d6e7fa",
-      "context_fingerprint": "sha256:10c9742aa7af0cee56c7b5adb9b7f25482cd9cee5b1ba0da73cb0c2f790984aa",
-      "material_fingerprint": "sha256:905f4416aa5579754058ae27e68c14fad97d12f87680565c938c0ac0d3d1b626",
+      "config_sha256": "sha256:d503f2a5b9a0e3d1fb5d45303af491ebf32884617932c06f873dfc4666f2bb1b",
+      "archive_sha256": "sha256:af21f88ed44c6c9bacb5466bc864f86269156092b9c0060c78e641eb882cd4e4",
+      "context_fingerprint": "sha256:89a2a6a4807cb5a0088c5ff69a2d8f4c12ce66ea183f1787cb6244bd082efcc9",
+      "material_fingerprint": "sha256:b0b05f5beb21579d669a573df539f01f34d0083c47a602d3e8b3692ba9bda7ce",
       "architectures": [
         "amd64",
         "aarch64"
       ],
       "config": {
         "name": "Music Assistant DEV SERVER",
-        "version": "2.11.0.dev2026101703",
+        "version": "2.11.0.dev2026101803",
         "slug": "music_assistant_dev",
         "description": "Development App for Music Assistant. For developers only.",
         "url": "https://music-assistant.io",
@@ -313,7 +313,7 @@
       "images": {},
       "delivery": "local-source-build",
       "validation": "manifest+source-context+configured-CI (runtime build not certified)",
-      "publisher_run_id": "39015273601",
+      "publisher_run_id": "39110224804",
       "channel": "prerelease"
     },
     "music_assistant_nightly": {
@@ -405,11 +405,11 @@
       "name": "NetEase Cloud Music API",
       "version": "0.1.1",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "6a86960bca2724a2d299810d7526d910086ce169",
+      "source_sha": "a25d8faf469d9e1e23e8e79b84aa296ac5fd9434",
       "source_path": "netease_cloud_music_api",
       "config_file": "config.yaml",
       "config_sha256": "sha256:5e05ab5207e0f6b7dc6aec761d428ef4cd7d188a1f58f4a21a9fc374a1406f43",
-      "archive_sha256": "sha256:9ad04b885ce0f0c399489144f4b34424bb91de7127344dc8625e537622d6e7fa",
+      "archive_sha256": "sha256:af21f88ed44c6c9bacb5466bc864f86269156092b9c0060c78e641eb882cd4e4",
       "context_fingerprint": "sha256:8cd572a3dfa5147dbdb309e8bf1bb83c0880fef5bd46c8050e859d67d2c0a2e3",
       "material_fingerprint": "sha256:15f096d3b0fee469a144b3f4a81fd83224fba6134a28faeaf55d1b30ca01460c",
       "architectures": [
@@ -440,7 +440,7 @@
       "images": {},
       "delivery": "local-source-build",
       "validation": "manifest+source-context+configured-CI (runtime build not certified)",
-      "publisher_run_id": "39015273601",
+      "publisher_run_id": "39110224804",
       "channel": "stable"
     },
     "ytm_po_token_generator": {
@@ -448,11 +448,11 @@
       "name": "YT Music PO Token Generator",
       "version": "2.0.1",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "6a86960bca2724a2d299810d7526d910086ce169",
+      "source_sha": "a25d8faf469d9e1e23e8e79b84aa296ac5fd9434",
       "source_path": "ytm_po_token_generator",
       "config_file": "config.yaml",
       "config_sha256": "sha256:02bbbde560a3c14ce8cd96c1b860beac4d748e0e8b2d7623d7681d9805187a10",
-      "archive_sha256": "sha256:9ad04b885ce0f0c399489144f4b34424bb91de7127344dc8625e537622d6e7fa",
+      "archive_sha256": "sha256:af21f88ed44c6c9bacb5466bc864f86269156092b9c0060c78e641eb882cd4e4",
       "context_fingerprint": "sha256:3b2e9c58e2ba3dea291702eae2c54378e565c3efe02db61f2aa2e36f65071dbc",
       "material_fingerprint": "sha256:3b2e9c58e2ba3dea291702eae2c54378e565c3efe02db61f2aa2e36f65071dbc",
       "architectures": [
@@ -491,7 +491,7 @@
       },
       "delivery": "published-image",
       "validation": "manifest+architecture-images+configured-CI",
-      "publisher_run_id": "39015273601",
+      "publisher_run_id": "39110224804",
       "channel": "stable"
     }
   }
