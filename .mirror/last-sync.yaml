@@ -1,5 +1,5 @@
-last_sync: 2026-10-29T10:06:09Z
+last_sync: 2026-10-30T10:08:37Z
 upstream_url: https://github.com/music-assistant/home-assistant-addon
 upstream_branch: main
-upstream_commit: a2ee22daab7a9f2ac1113c6476d491055285b45e
+upstream_commit: 81bc5b66958dc5f9e8af56f874f946a4c9acd119
 mirror_image_prefix: ghcr.io/woowtech/ha-mirror-
