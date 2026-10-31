@@ -22,7 +22,7 @@
       "name": "Music Assistant",
       "upstream_image": "ghcr.io/music-assistant/server",
       "new_image": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server",
-      "version": "2.10.8",
+      "version": "2.10.9",
       "arches": [
         "aarch64",
         "amd64"
@@ -48,7 +48,7 @@
       "name": "Music Assistant (NIGHTLY)",
       "upstream_image": "ghcr.io/music-assistant/server",
       "new_image": "ghcr.io/woowtech/ha-mirror-ghcr-io-music-assistant-server",
-      "version": "2.11.0.dev2026103004",
+      "version": "2.11.0.dev2026103104",
       "arches": [
         "aarch64",
         "amd64"
