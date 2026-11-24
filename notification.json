@@ -419,11 +419,11 @@
       "name": "NetEase Cloud Music API",
       "version": "0.1.1",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "4bfce5a3337f67e9cdc5fe35fdf6b4a2f97faf11",
+      "source_sha": "8a4176c90d3ce6a2f3b59e43d75c32fe93f2d928",
       "source_path": "netease_cloud_music_api",
       "config_file": "config.yaml",
       "config_sha256": "sha256:5e05ab5207e0f6b7dc6aec761d428ef4cd7d188a1f58f4a21a9fc374a1406f43",
-      "archive_sha256": "sha256:5e2497ccab0e1a3e022cf1ef8bc263388c0975e85ca1f5f13688b69edf282e74",
+      "archive_sha256": "sha256:b42c5a9c2e9d217bcba614d4455e70f412f5c036f68139f520af857e781eacb0",
       "context_fingerprint": "sha256:8cd572a3dfa5147dbdb309e8bf1bb83c0880fef5bd46c8050e859d67d2c0a2e3",
       "material_fingerprint": "sha256:15f096d3b0fee469a144b3f4a81fd83224fba6134a28faeaf55d1b30ca01460c",
       "architectures": [
@@ -454,7 +454,7 @@
       "images": {},
       "delivery": "local-source-build",
       "validation": "manifest+source-context+configured-CI (runtime build not certified)",
-      "publisher_run_id": "44875975439",
+      "publisher_run_id": "45341467446",
       "channel": "stable"
     },
     "ytm_po_token_generator": {
@@ -462,11 +462,11 @@
       "name": "YT Music PO Token Generator",
       "version": "2.0.2",
       "repository": "WOOWTECH/Woow_ha_music_assistant_add_on",
-      "source_sha": "4bfce5a3337f67e9cdc5fe35fdf6b4a2f97faf11",
+      "source_sha": "98ed3b07016b206d198426a0186329b9b3c10ea8",
       "source_path": "ytm_po_token_generator",
       "config_file": "config.yaml",
       "config_sha256": "sha256:e0aaaf25289f63b776e71aec189f1555c9fecea313cf62299cb4a6c2647c43c5",
-      "archive_sha256": "sha256:5e2497ccab0e1a3e022cf1ef8bc263388c0975e85ca1f5f13688b69edf282e74",
+      "archive_sha256": "sha256:624f5c871820215c4adaedaa7b392c3478353fa4a011890990cc6c6206f4be6f",
       "context_fingerprint": "sha256:d09200662af04734a8539b9144455a4436ff94ab04a0a13192b468a197ebbec8",
       "material_fingerprint": "sha256:d09200662af04734a8539b9144455a4436ff94ab04a0a13192b468a197ebbec8",
       "architectures": [
@@ -505,7 +505,7 @@
       },
       "delivery": "published-image",
       "validation": "manifest+architecture-images+configured-CI",
-      "publisher_run_id": "44875975439",
+      "publisher_run_id": "45341467446",
       "channel": "stable"
     }
   }
